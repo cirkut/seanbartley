@@ -198,13 +198,17 @@
 		vertical-align: middle;
 		width: 90%;
 
+		img {
+			width: 100%;
+			max-width: 150px;
+		}
+
 		h1 {
 			font-size: 4.75em;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			line-height: 1em;
 			text-transform: uppercase;
-			color: _palette(h1);
 		}
 
 		p {
@@ -383,11 +387,20 @@
 
 		/* BG */
 
-			@include bg(_misc(bg-width) * 0.275);
+			@include bg(_misc(bg-width) * 0.5);
 
 		/* Header */
 
 			#header {
+				h1 {
+					margin-bottom: 0.375em;
+				}
+
+				p {
+					font-size: 0.7em;
+					letter-spacing: 0;
+				}
+
 				nav {
 					padding: 0 1em;
 				}

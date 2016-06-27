@@ -73,6 +73,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/css\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38018,
+		"inputAbbreviatedPath": "\/assets\/css\/images\/logo.png",
+		"outputAbbreviatedPath": "\/assets\/css\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/css\/images\/overlay-pattern.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -80,6 +91,17 @@
 		"initialSize": 13892,
 		"inputAbbreviatedPath": "\/assets\/css\/images\/overlay-pattern.png",
 		"outputAbbreviatedPath": "\/assets\/css\/images\/overlay-pattern.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/css\/images\/sb_head.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37576,
+		"inputAbbreviatedPath": "\/assets\/css\/images\/sb_head.png",
+		"outputAbbreviatedPath": "\/assets\/css\/images\/sb_head.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
