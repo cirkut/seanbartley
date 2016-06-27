@@ -1,0 +1,38 @@
+// Misc.
+	$misc: (
+		bg:					url("images/bg.png") bottom left,
+		bg-width:			750px
+	);
+
+// Duration.
+	$duration: (
+		bg:					15s,
+		wrapper:			1s,
+		overlay:			0.2s,
+		header:				0.5s,
+		nav-icons:			0.5s
+	);
+
+// Size.
+	$size: (
+		nav-icon-wrapper:	4em,
+		nav-icon:			1.25em
+	);
+
+// Font.
+	$font: (
+	);
+
+// Palette.
+	$palette: (
+		bg:					#3d3d3d,
+		fg:					#fff,
+		h1:                 #00d000,
+
+		nav-icon: (
+			hover-bg:		rgba(0,208,0,0.175),
+			hover-fg:		#00d000,
+			active-bg:		rgba(0,208,0,0.35),
+			active-fg:		#00d000
+		)
+	);
