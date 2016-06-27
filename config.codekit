@@ -51,6 +51,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/css\/images\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2086,
+		"inputAbbreviatedPath": "\/assets\/css\/images\/favicon.png",
+		"outputAbbreviatedPath": "\/assets\/css\/images\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/css\/images\/fb-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242345,
+		"inputAbbreviatedPath": "\/assets\/css\/images\/fb-image.jpg",
+		"outputAbbreviatedPath": "\/assets\/css\/images\/fb-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/css\/images\/ie\/footer.png": {
 		"fileType": 32768,
 		"ignore": 0,
