@@ -248,6 +248,7 @@
 				-webkit-touch-callout: none;
 				border: 0;
 				display: inline-block;
+				position: relative;
 
 				&:before {
 					@include vendor('transition', 'all 0.2s ease-in-out');
@@ -260,6 +261,22 @@
 					position: relative;
 					text-align: center;
 					top: 0;
+					width: 2.5em;
+				}
+
+				& img {
+					@include vendor('transition', 'all 0.2s ease-in-out');
+					border-radius: 100%;
+					border: solid 1px _palette(fg);
+					display: block;
+					position: absolute;
+					padding: 0.5em;
+					font-size: _size(nav-icon);
+					height: 2.5em;
+					line-height: 2.5em;
+					position: relative;
+					text-align: center;
+					top: 0.8em;
 					width: 2.5em;
 				}
 

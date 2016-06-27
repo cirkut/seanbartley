@@ -73,6 +73,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/css\/images\/gamewisp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7579,
+		"inputAbbreviatedPath": "\/assets\/css\/images\/gamewisp.png",
+		"outputAbbreviatedPath": "\/assets\/css\/images\/gamewisp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/css\/images\/ie\/footer.png": {
 		"fileType": 32768,
 		"ignore": 0,
