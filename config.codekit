@@ -51,6 +51,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/css\/images\/discord-overlay.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1559,
+		"inputAbbreviatedPath": "\/assets\/css\/images\/discord-overlay.png",
+		"outputAbbreviatedPath": "\/assets\/css\/images\/discord-overlay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/css\/images\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -69,6 +80,17 @@
 		"initialSize": 242345,
 		"inputAbbreviatedPath": "\/assets\/css\/images\/fb-image.jpg",
 		"outputAbbreviatedPath": "\/assets\/css\/images\/fb-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/css\/images\/gamewisp-overlay.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12274,
+		"inputAbbreviatedPath": "\/assets\/css\/images\/gamewisp-overlay.png",
+		"outputAbbreviatedPath": "\/assets\/css\/images\/gamewisp-overlay.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -135,6 +157,17 @@
 		"initialSize": 37576,
 		"inputAbbreviatedPath": "\/assets\/css\/images\/sb_head.png",
 		"outputAbbreviatedPath": "\/assets\/css\/images\/sb_head.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/css\/images\/twitch-overlay.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2389,
+		"inputAbbreviatedPath": "\/assets\/css\/images\/twitch-overlay.png",
+		"outputAbbreviatedPath": "\/assets\/css\/images\/twitch-overlay.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
