@@ -18,58 +18,89 @@ html, body {
   outline-offset: 5px;
   overflow: hidden;
   color: white;
+
+  &.quote {
+    right: 50px;
+    bottom: 50px;
+    top: inherit;
+    left: inherit;
+    transform: translateX(0%);
+    overflow: visible;
+    &::after {
+      display: block;
+      content: "";
+      position: absolute;
+      bottom: -30px;
+      right: 0px;
+      width: 0px;
+      height: 0px;
+      background: transparent;
+      border-left: 30px solid transparent;
+      border-right: 0px solid #fff;
+      border-top: 30px solid #fff;
+      z-index: 1000000;
+    }
+    .panel-content {
+      position: relative;
+      width: 100%;
+      padding: 0;
+      p {
+        padding: 0 20px;
+      }
+    }
+  }
+  &.panel--green {
+    background-color: #009000;
+    outline-color: #009000;
+    .panel-image { background-color: #006000;}
+  }
+  &.panel--purple {
+    background-color: #6441a5;
+    outline-color: #6441a5;
+    .panel-image { background-color: #38255f; }
+  }
+  &.panel--blue {
+    background-color: #7289da;
+    outline-color: #7289da;
+    .panel-image { background-color: #344166; }
+  }
+  &.panel--white {
+    background-color: #fff;
+    outline-color: #fff;
+    .panel-image { background-color: #ddd; }
+    .panel-content {
+      color: black;
+    }
+  }
+
+  .panel-image {
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    img {
+      max-width: 100%;
+      vertical-align: bottom;
+      filter: brightness(100);
+    }
+  }
+  .panel-content {
+    position: absolute;
+    float: left;
+    padding: 0 20px 0 120px;
+    width: 360px;
+    height: 100px;
+    text-align: center;
+    p {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      line-height: 1.25em;
+      margin: 0;
+      padding: 0;
+    }
+  }
 } 
-.panel--green {
-  background-color: #009000;
-  outline-color: #009000;
-}
-.panel--green .panel-image {
-  background-color: #006000;
-}
-.panel--purple {
-  background-color: #6441a5;
-  outline-color: #6441a5;
-}
-.panel--purple .panel-image {
-  background-color: #38255f;
-}
-.panel--blue {
-  background-color: #7289da;
-  outline-color: #7289da;
-}
-.panel--blue .panel-image {
-  background-color: #344166;
-}
-
-.panel-image {
-  padding: 20px;
-  width: 60px;
-  height: 60px;
-  float: left;
-}
-
-.panel-image img {
-  max-width: 100%;
-  vertical-align: bottom;
-  filter: brightness(100);
-}
-.panel-content {
-  position: absolute;
-  float: left;
-  padding: 0 20px 0 120px;
-  width: 360px;
-  height: 100px;
-  text-align: center;
-}
-.panel-content p {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  line-height: 1.25em;
-  margin: 0;
-  padding: 0;
-}
-
 @keyframes first-slide-out {
   0%, 2.33%, 100%{ 
     bottom: -100%;
