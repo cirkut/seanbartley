@@ -28,9 +28,9 @@ $.getJSON(url, function(data) {
 	var entry = data.feed.entry;
 	console.log(entry);
 	$(entry).each(function(){
-		$('.quotes').append('<div class="quote panel panel--white" style=""><div class="panel-content"><p>'+this.gsx$quote.$t+'<br><span class="author">~ '+this.gsx$author.$t+', '+this.gsx$date.$t+'</span></p></div></div>');
+		$('.quotes').append('<div class="quote panel panel--white" style="display: none;"><div class="panel-content"><p>'+this.gsx$quote.$t+'<br><span class="author">~ '+this.gsx$author.$t+', '+this.gsx$date.$t+'</span></p></div></div>');
 	});
-	// $('.quote').hide();
+	$('.quote').hide();
 	var count = $('.quote').length;
 	var random = Math.floor(Math.random() * count);
 	console.log(random);
@@ -39,7 +39,7 @@ $.getJSON(url, function(data) {
 		$(this).delay(5000).fadeOut(1000);
 	});
 	setInterval(function(){
-		// $('.quote').hide();
+		$('.quote').hide();
 		var count = $('.quote').length;
 		var random = Math.floor(Math.random() * count);
 		console.log(random);
